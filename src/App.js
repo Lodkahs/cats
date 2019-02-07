@@ -25,7 +25,7 @@ class App extends Component {
 
     render() {
         return (
-            <div className='col-md-4 main offset-md-4'>
+            <div className='col-lg-4 main offset-lg-4'>
                 {userData.map((value, index) => {
                     return <Animal select={this.catSelected} deselect={this.catDeselected} key={index}
                                    imageUrl={value.imageUrl} name={value.name} index={value.id}/>
