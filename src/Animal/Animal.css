@@ -1,0 +1,33 @@
+.animal img {
+    width: 100%;
+}
+
+.animal {
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid black;
+    margin: 10px auto 0;
+    align-items: center;
+}
+
+.selected {
+    box-shadow: 0 0 30px rgba(0,0,0,0.5);
+}
+
+button {
+    margin: 20px;
+    padding: 15px;
+    border-radius: 15%;
+    background-color: #fff;
+    font-size: 18px;
+    outline: none;
+}
+
+button:hover {
+    background-color: #f5f5f5;
+}
+
+
+
+
+
